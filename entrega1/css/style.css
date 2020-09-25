@@ -23,7 +23,7 @@ a{
 	justify-content: center;
 	border: 0.1rem solid #7A88B8 ;
 	border-radius: 1rem;
-	font-size: 1.75rem;
+	font-size: 4.5vw;
 	margin-top: 0em;
 	margin-bottom: 0em;
 	margin-right: 1em;
@@ -38,13 +38,13 @@ a{
 	color: #604FA3;
 }
 h1{
-	font-size: 3rem;
+	font-size: 8vw;
 }
 h2{
-	font-size: 2.5rem;
+	font-size: 7vw;
 }
 h3{
-	font-size: 2.25rem;
+	font-size: 6vw;
 }
 img{
 	display: block;
@@ -65,28 +65,32 @@ img{
 }
 p{
 	text-align: center;
-	font-size: 1.75rem;
+	font-size: 4.5vw;
 	color: #604FA3;
+	margin-right: 1em;
+	margin-left: 1em;
 }
 audio{
 	width: 75%;
-	height: 7.5rem;
-	font-size: 1.75rem;
+	height: 10vw;
+	font-size: 4.5vw;
 }
 .fala {
 	display: flex;
 	justify-content: center;
 	align-items: center ;
-	font-size: 1.75rem;
+	font-size: 4.5vw;
 }
 .numero{
 	color: #48428A;
-	font-size: 1.75rem;
+	font-size: 4.5vw;
 }
 footer{
 	text-align: center;
-	font-size: 1.75rem;
+	font-size: 4.5vw;
 	color: #BBAEEB;
+	margin-right: 1em;
+	margin-left: 1em;
 }
 input{
 	display: flex;
@@ -97,13 +101,13 @@ input{
 	margin: auto;
 	padding: 0%;
 	width: 75%;
-	font-size: 1.75rem;
+	font-size: 4.5vw;
 }
 label{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 1.75rem;
+	font-size: 4.5vw;
 	color: #A069DE;
 }
 input{
