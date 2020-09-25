@@ -1,3 +1,12 @@
+/* no caso das cores as trocas seriam feitas de seguinte forma para cada caso de daltonismo, separei em grupos '[]' 
+onde o primeiro elemento é o presente no código, o segundo o equivalente na paleta verde e o terceiro na paleta vermelha
+[#604FA3;#7AFF78;#D95276];
+[#A069DE;#78B536;#FF705D];
+[#BBAEEB;#B4FAB1;#F2ACBF];
+[#48428A;#2B8A28;#F20505];
+[#7A88B8;#87D150;#73142D];
+*/
+
 body{
 	font-family:'Rufina', serif,'Literata', serif;
 }
@@ -8,11 +17,11 @@ a{
 	text-decoration:none; 
 	
 	padding: 0.3rem;
-	color: blueviolet;
+	color: #48428A;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	border: 0.1rem solid black ;
+	border: 0.1rem solid #7A88B8 ;
 	border-radius: 1rem;
 	font-size: 1.75rem;
 	margin-top: 0em;
@@ -26,6 +35,7 @@ a{
 	align-items: center;
 	justify-content: center;
 	font-weight: bold;
+	color: #604FA3;
 }
 h1{
 	font-size: 3rem;
@@ -56,6 +66,7 @@ img{
 p{
 	text-align: center;
 	font-size: 1.75rem;
+	color: #604FA3;
 }
 audio{
 	width: 75%;
@@ -69,12 +80,13 @@ audio{
 	font-size: 1.75rem;
 }
 .numero{
-	color: red;
+	color: #48428A;
 	font-size: 1.75rem;
 }
 footer{
 	text-align: center;
 	font-size: 1.75rem;
+	color: #BBAEEB;
 }
 input{
 	display: flex;
@@ -92,4 +104,8 @@ label{
 	align-items: center;
 	justify-content: center;
 	font-size: 1.75rem;
+	color: #A069DE;
+}
+input{
+	color: #A069DE;
 }
